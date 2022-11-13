@@ -13,13 +13,17 @@ bash <(curl -sSL "https://raw.githubusercontent.com/TheOrdinaryWow/sspanel-setup
 
 ## 相关指令
 
-后端默认安装目录: `/usr/local/shadowsocks`
+shadowsocks-mod默认安装目录: `/usr/local/shadowsocks`
 
-supervisor默认配置目录: `/etc/supervisor/conf.d/shadowsocks.conf （Centos:/etc/supervisord.conf）`
+supervisor默认配置目录: `/etc/supervisor/conf.d/shadowsocks.conf （CentOS:/etc/supervisord.conf）`
+
 
 运行ssmod: `supervisorctl start shadowsocks-mod`
+
 停止ssmod: `supervisorctl stop shadowsocks-mod`
+
 查看ssmod状态: `supervisorctl status shadowsocks-mod`
+
 重载supervisor配置文件: `supervisorctl update`
 
 ## ？
